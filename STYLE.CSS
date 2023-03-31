@@ -1,0 +1,274 @@
+
+*{
+    margin: 0;
+  padding: 0;
+  color: #272623;
+ 
+    }
+body {
+    font-family: 'Alkatra', cursive;
+   
+}
+
+
+
+
+
+.container{
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.cabecalho {
+  flex-basis: 30%;
+  
+
+}
+
+.cabecalho_logo {
+
+    margin-bottom: 10px;
+    padding: 40px;
+    
+}
+
+.cabecalho_logo img {}
+
+.cabecalho_menunavegacao {
+
+    padding-left: 40px;
+  
+}
+
+.cabecalho menulista {
+   
+    
+}
+
+.menuItem {
+
+    margin-bottom: 20px;
+    color: rgb(255, 23, 23);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.cabecalho menuitem img {}
+
+.cabecalho menuItem a {
+
+    color: black;
+    text-decoation: none;
+    font-size: 500px;
+    font-size: 50px;
+
+}
+
+/* conteudo prinipal */
+
+
+
+.conteudoPrincipal_tweet {
+
+
+    border: 1px #050505;
+    display: flex;
+    flex-direction: column;
+}
+    
+
+
+
+.conteudoPrincipal_formulario {
+ padding: 10px 30px;
+ border-top: 4px solid #d5e0f7;
+ border-bottom: 10px solid #aeafb1;
+text-align: right;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 60px;
+
+
+}
+
+.conteudoPrincipal_formulario textarea {  
+
+display: block;
+width: 100%;
+border: none;
+outline: none;
+resize: none;
+padding: 13px;
+
+
+}
+ 
+.conteudoPrincipal_formulario button {
+background-color: #1881d8;
+border: none;
+padding: 8px 20px;
+border-radius: 20px;
+color: #f5f5f7;
+}
+
+
+
+.conteudoPrincipal feed {
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+.conteudoPrincipal_listatweets {
+
+    padding: 5px 40px;
+    align-items: flex-start;
+    align-items:flex-start;
+    
+   
+}
+
+.tweet fotoperfil {}
+
+.tweet_conteudo  {  
+
+
+padding: 20px 32px;
+align-items:flex-start;
+
+    
+
+
+}
+
+.tweet_conteudo h2{
+
+    display: inline-block;
+}
+
+
+.tweetc_conteudo span{
+    display: inline-block;
+    color: #272623;
+    
+}
+
+.tweet_conteudo p {
+
+    margin-top: 15px;
+}
+
+
+
+.logo {
+
+    padding: 30px;
+}
+
+
+
+figure {
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+p {
+    color: #050505;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+
+    list-style: none; 
+    color: rgb(7, 48, 100);
+    
+  
+}
+
+a {
+
+    color: #050505;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: dotted;
+    
+}
+
+figure {
+
+    margin-bottom: 30 px;
+}
+
+main {
+
+   
+    flex-basis: 70%;
+    border-left: 1px solid #2d78b6;
+    border-right: 1px solid #1881d8;
+}
+
+H3 {
+
+    padding: 30px 20px;
+    color: #2e83aa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+placeholder {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+ 
+}
+
+
+textarea { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    
+
+}
+
+pre {
+
+    color: #050505;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+li.conteudoPrincipal_tweet {
+ display: flex ;
+
+ align-items: start;
+ 
+padding: 5px;
+
+}
+
+.textoTweet {height: 40px;
+
+
+}
+
+
+header {
+
+    background-color:  #f1f1f1;
+}
+
+em {
+
+color: #1881d8;
+
+}
