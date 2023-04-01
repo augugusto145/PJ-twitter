@@ -1,13 +1,24 @@
 
+
+
+
 *{
     margin: 0;
   padding: 0;
   color: #272623;
- 
     }
-body {
+
+
+
+    @media screen and (max-width: 768px) {
+    
+    }
+    body {
     font-family: 'Alkatra', cursive;
-   
+    width: 100%;
+    flex-direction: column;
+  flex-basis: 30%;
+  
 }
 
 
@@ -22,12 +33,20 @@ body {
     display: flex;
 
 }
-
+@media screen and (max-width: 768px) {
+    
+}
 .cabecalho {
+    width: 100%;
+    flex-direction: column;
   flex-basis: 30%;
   
 
 }
+
+
+
+
 
 .cabecalho_logo {
 
