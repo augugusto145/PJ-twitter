@@ -94,6 +94,8 @@ li.appendChild(div)
    
 feed.insertBefore(li, feed.firstChild);
 
-
+//// limpar a caixa de texto depois que publicar ////
+textArea.value = ""
 
 }
+
