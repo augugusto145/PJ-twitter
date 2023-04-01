@@ -291,3 +291,59 @@ em {
 color: #1881d8;
 
 }
+
+
+@media screen and (max-width: 768px) {
+  /* Estilos para telas menores que 768px */
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .cabecalho {
+    padding: 20px 0;
+  }
+
+  .cabecalho_logo {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .cabecalho_menunavegacao {
+    padding: 0;
+    display: none;
+  }
+
+  .menu_hamburger {
+    display: block;
+  }
+
+  .menu_lista {
+    display: none;
+  }
+
+  .conteudoPrincipal_formulario {
+    padding: 10px;
+  }
+
+  .conteudoPrincipal_tweet {
+    padding: 10px;
+  }
+
+  .tweet_conteudo {
+    padding: 10px;
+  }
+
+  .tweet_conteudo h2 {
+    font-size: 22px;
+  }
+
+  .tweet_conteudo p {
+    font-size: 18px;
+  }
+}
