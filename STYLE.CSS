@@ -8,11 +8,12 @@
   color: #272623;
     }
 
+    .sidebar {
+        display: none;
+        color: #1881d8;
+      }
 
-
-    @media screen and (max-width: 768px) {
     
-    }
     body {
     font-family: 'Alkatra', cursive;
     width: 100%;
@@ -31,11 +32,10 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    
 
 }
-@media screen and (max-width: 768px) {
-    
-}
+
 .cabecalho {
     width: 100%;
     flex-direction: column;
@@ -113,7 +113,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 60px;
 
 
+
 }
+
 
 .conteudoPrincipal_formulario textarea {  
 
@@ -137,9 +139,11 @@ color: #f5f5f7;
 
 
 
-.conteudoPrincipal feed {
+.conteudoPrincipal_feed {
     margin: 0;
     padding: 0;
+    
+    
    
 
 }
@@ -244,12 +248,7 @@ H3 {
     font-size: 30px;
 }
 
-placeholder {
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
- 
-}
 
 
 textarea { 
@@ -293,57 +292,32 @@ color: #1881d8;
 }
 
 
-@media screen and (max-width: 768px) {
-  /* Estilos para telas menores que 768px */
-  body {
-    font-size: 16px;
-  }
 
+
+@media only screen and (max-width: 768px) {
+  /* Estilos para telas menores que 768px de largura */
   .container {
     flex-direction: column;
-    padding: 0 20px;
-  }
-
-  .cabecalho {
-    padding: 20px 0;
   }
 
   .cabecalho_logo {
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 0;
+    padding: 20px;
   }
 
   .cabecalho_menunavegacao {
-    padding: 0;
-    display: none;
+    padding-left: 20px;
   }
 
-  .menu_hamburger {
-    display: block;
+  .menuItem {
+    margin-bottom: 10px;
   }
 
-  .menu_lista {
-    display: none;
-  }
-
-  .conteudoPrincipal_formulario {
-    padding: 10px;
-  }
-
-  .conteudoPrincipal_tweet {
-    padding: 10px;
-  }
-
-  .tweet_conteudo {
-    padding: 10px;
-  }
-
-  .tweet_conteudo h2 {
-    font-size: 22px;
-  }
-
-  .tweet_conteudo p {
-    font-size: 18px;
+  .conteudoPrincipal_listatweets {
+    padding: 5px;
   }
 }
+
+
+
+  
+  
