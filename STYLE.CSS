@@ -298,6 +298,7 @@ color: #1881d8;
   /* Estilos para telas menores que 768px de largura */
   .container {
     flex-direction: column;
+       max-width: 100%;
   }
 
   .cabecalho_logo {
