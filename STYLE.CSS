@@ -299,6 +299,7 @@ color: #1881d8;
   .container {
     flex-direction: column;
        max-width: 100%;
+       flex-basis: 100%;
   }
 
   .cabecalho_logo {
